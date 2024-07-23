@@ -1,6 +1,18 @@
 package Polymorphism;
+//How many types of Constructor are there ?
+//1. Default Constructor
+//2. Non Parameterized Constructor
+//3. Parameterized Constructor
 
 public class MethodOveriding extends MethodOverloading{
+	public MethodOveriding() {
+		System.out.println("This is the non parameterized constructor ");
+		
+	}
+	public MethodOveriding(int a) {
+		System.out.println("This is the natural number" + a);
+		
+	}
 	public void num() {
 		System.out.println("This is the method overiding");
 	}
@@ -15,7 +27,9 @@ public class MethodOveriding extends MethodOverloading{
 		MethodOveriding mo=new MethodOveriding();
 		mo.num();
 		mo.num(7);
-		mo.num(6, 7);
+		//mo.num(6, 7);
+		
+		System.out.println("**************************************");
 		
 		
 		MethodOverloading mc=new MethodOverloading();
