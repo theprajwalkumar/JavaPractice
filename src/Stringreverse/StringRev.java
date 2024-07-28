@@ -17,6 +17,7 @@ public class StringRev {
 		
 		 System.out.println(StringRev.reverseString("my name is khan"));  
 		    System.out.println(StringRev.reverseString("I am sonoo jaiswal"));  
+		    System.out.println(StringRev.reverseString("oppp"));
 
 	}
 
